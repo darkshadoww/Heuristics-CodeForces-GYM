@@ -1,0 +1,52 @@
+i : 0 |  c.F :  |  c.S : 3
+i : 1 |  c.F : c |  c.S : 1
+i : 1 |  c.F : a |  c.S : 2
+i : 2 |  c.F : c |  c.S : 1
+i : 2 |  c.F : b |  c.S : 2
+i : 3 |  c.F : ac |  c.S : 1
+i : 3 |  c.F : cb |  c.S : 1
+i : 3 |  c.F : ab |  c.S : 1
+j : 0 |  nmask : 0
+j : 0 |  nmask : 1
+j : 0 |  nmask : 2
+j : 0 |  nmask : 3
+i : 0 |  j : 0 |  tot : 0
+j : 1 |  nmask : 1
+j : 1 |  nmask : 3
+i : 0 |  j : 1 |  tot : 1
+j : 2 |  nmask : 2
+j : 2 |  nmask : 3
+i : 0 |  j : 2 |  tot : 1
+j : 3 |  nmask : 3
+i : 0 |  j : 3 |  tot : 0
+j : 0 |  nmask : 0
+j : 0 |  nmask : 1
+j : 0 |  nmask : 2
+j : 0 |  nmask : 3
+i : 1 |  j : 0 |  tot : 1
+j : 1 |  nmask : 1
+j : 1 |  nmask : 3
+i : 1 |  j : 1 |  tot : 1
+j : 2 |  nmask : 2
+j : 2 |  nmask : 3
+i : 1 |  j : 2 |  tot : 0
+j : 3 |  nmask : 3
+i : 1 |  j : 3 |  tot : 0
+j : 0 |  nmask : 0
+j : 0 |  nmask : 1
+j : 0 |  nmask : 2
+j : 0 |  nmask : 3
+i : 2 |  j : 0 |  tot : 1
+j : 1 |  nmask : 1
+j : 1 |  nmask : 3
+i : 2 |  j : 1 |  tot : 0
+j : 2 |  nmask : 2
+j : 2 |  nmask : 3
+i : 2 |  j : 2 |  tot : 1
+j : 3 |  nmask : 3
+i : 2 |  j : 3 |  tot : 0
+ans[i] : 0
+ans[i] : 4
+ans[i] : 2
+ans[i] : 0
+ans[i] : 0

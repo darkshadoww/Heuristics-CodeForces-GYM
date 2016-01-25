@@ -1,0 +1,7 @@
+I.cpp: In function ‘int main()’:
+I.cpp:83:27: error: no match for ‘operator!’ (operand type is ‘std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const int, std::set<std::basic_string<char> > > > >’)
+                 if(n<0 or not it)break;
+                           ^
+I.cpp:83:27: note: candidate is:
+I.cpp:83:27: note: operator!(bool) <built-in>
+I.cpp:83:27: note:   no known conversion for argument 1 from ‘std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const int, std::set<std::basic_string<char> > > > >’ to ‘bool’

@@ -1,0 +1,138 @@
+j.p0.x : 2 |  j.p0.y : 2 |  j.p1.x : 5 |  j.p1.y : 3
+
+j.p0.x : 2 |  j.p0.y : 5 |  j.p1.x : 5 |  j.p1.y : 6
+
+j.p0.x : 2 |  j.p0.y : 3 |  j.p1.x : 3 |  j.p1.y : 5
+
+j.p0.x : 4 |  j.p0.y : 3 |  j.p1.x : 5 |  j.p1.y : 5
+
+trans.x : 1 |  trans.y : 1
+ans : 10
+trans.x : 0 |  trans.y : 0
+ans : 9
+trans.x : 1 |  trans.y : 0
+ans : 9
+trans.x : 0 |  trans.y : 1
+ans : 9
+trans.x : 3 |  trans.y : 3
+ans : 4
+trans.x : -7 |  trans.y : -7
+ans : 1
+trans.x : 3 |  trans.y : -7
+ans : 2
+trans.x : -7 |  trans.y : 3
+ans : 3
+trans.x : 2 |  trans.y : 3
+ans : 6
+trans.x : 1 |  trans.y : 2
+ans : 10
+trans.x : 2 |  trans.y : 2
+ans : 9
+trans.x : 1 |  trans.y : 3
+ans : 6
+trans.x : 4 |  trans.y : 5
+ans : 1
+trans.x : -6 |  trans.y : -5
+ans : 4
+trans.x : 4 |  trans.y : -5
+ans : 3
+trans.x : -6 |  trans.y : 5
+ans : 2
+trans.x : 1 |  trans.y : 3
+ans : 6
+trans.x : 0 |  trans.y : 2
+ans : 9
+trans.x : 1 |  trans.y : 2
+ans : 10
+trans.x : 0 |  trans.y : 3
+ans : 6
+trans.x : 3 |  trans.y : 5
+ans : 2
+trans.x : -7 |  trans.y : -5
+ans : 3
+trans.x : 3 |  trans.y : -5
+ans : 4
+trans.x : -7 |  trans.y : 5
+ans : 1
+trans.x : 2 |  trans.y : 1
+ans : 9
+trans.x : 1 |  trans.y : 0
+ans : 9
+trans.x : 2 |  trans.y : 0
+ans : 9
+trans.x : 1 |  trans.y : 1
+ans : 10
+trans.x : 4 |  trans.y : 3
+ans : 3
+trans.x : -6 |  trans.y : -7
+ans : 2
+trans.x : 4 |  trans.y : -7
+ans : 1
+trans.x : -6 |  trans.y : 3
+ans : 4
+trans.x : 0 |  trans.y : 0
+ans : 9
+trans.x : -1 |  trans.y : -1
+ans : 10
+trans.x : 0 |  trans.y : -1
+ans : 10
+trans.x : -1 |  trans.y : 0
+ans : 10
+trans.x : 2 |  trans.y : 2
+ans : 9
+trans.x : -8 |  trans.y : -8
+ans : 0
+trans.x : 2 |  trans.y : -8
+ans : 0
+trans.x : -8 |  trans.y : 2
+ans : 0
+trans.x : 3 |  trans.y : 4
+ans : 3
+trans.x : 2 |  trans.y : 3
+ans : 6
+trans.x : 3 |  trans.y : 3
+ans : 4
+trans.x : 2 |  trans.y : 4
+ans : 5
+trans.x : 5 |  trans.y : 6
+ans : 0
+trans.x : -5 |  trans.y : -4
+ans : 10
+trans.x : 5 |  trans.y : -4
+ans : 0
+trans.x : -5 |  trans.y : 6
+ans : 0
+trans.x : 0 |  trans.y : 4
+ans : 5
+trans.x : -1 |  trans.y : 3
+ans : 7
+trans.x : 0 |  trans.y : 3
+ans : 6
+trans.x : -1 |  trans.y : 4
+ans : 5
+trans.x : 2 |  trans.y : 6
+ans : 0
+trans.x : -8 |  trans.y : -4
+ans : 0
+trans.x : 2 |  trans.y : -4
+ans : 10
+trans.x : -8 |  trans.y : 6
+ans : 0
+trans.x : 3 |  trans.y : 0
+ans : 6
+trans.x : 2 |  trans.y : -1
+ans : 10
+trans.x : 3 |  trans.y : -1
+ans : 6
+trans.x : 2 |  trans.y : 0
+ans : 9
+trans.x : 5 |  trans.y : 2
+ans : 0
+trans.x : -5 |  trans.y : -8
+ans : 0
+trans.x : 5 |  trans.y : -8
+ans : 0
+trans.x : -5 |  trans.y : 2
+ans : 10
+10
+1 1

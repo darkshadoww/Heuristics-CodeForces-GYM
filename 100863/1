@@ -1,0 +1,8 @@
+E.cpp: In function ‘void merge(VPII&)’:
+E.cpp:52:28: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(int i=1; i<ar.size(); i++){
+                            ^
+E.cpp: In function ‘void back(VPII, int)’:
+E.cpp:84:5: warning: ‘topleft’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     for(int i=0; i<topleft; i++)
+     ^

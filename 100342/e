@@ -1,0 +1,1041 @@
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h: In instantiation of ‘bool std::less<_Tp>::operator()(const _Tp&, const _Tp&) const [with _Tp = std::bitset<300ul>]’:
+/usr/include/c++/4.8/bits/stl_tree.h:1324:11:   required from ‘std::pair<std::_Rb_tree_node_base*, std::_Rb_tree_node_base*> std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::_M_get_insert_unique_pos(const key_type&) [with _Key = std::bitset<300ul>; _Val = std::bitset<300ul>; _KeyOfValue = std::_Identity<std::bitset<300ul> >; _Compare = std::less<std::bitset<300ul> >; _Alloc = std::allocator<std::bitset<300ul> >; std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::key_type = std::bitset<300ul>]’
+/usr/include/c++/4.8/bits/stl_tree.h:1377:47:   required from ‘std::pair<std::_Rb_tree_iterator<_Val>, bool> std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::_M_insert_unique(_Arg&&) [with _Arg = const std::bitset<300ul>&; _Key = std::bitset<300ul>; _Val = std::bitset<300ul>; _KeyOfValue = std::_Identity<std::bitset<300ul> >; _Compare = std::less<std::bitset<300ul> >; _Alloc = std::allocator<std::bitset<300ul> >]’
+/usr/include/c++/4.8/bits/stl_set.h:463:29:   required from ‘std::pair<typename std::_Rb_tree<_Key, _Key, std::_Identity<_Key>, _Compare, typename _Alloc::rebind<_Key>::other>::const_iterator, bool> std::set<_Key, _Compare, _Alloc>::insert(const value_type&) [with _Key = std::bitset<300ul>; _Compare = std::less<std::bitset<300ul> >; _Alloc = std::allocator<std::bitset<300ul> >; typename std::_Rb_tree<_Key, _Key, std::_Identity<_Key>, _Compare, typename _Alloc::rebind<_Key>::other>::const_iterator = std::_Rb_tree_const_iterator<std::bitset<300ul> >; std::set<_Key, _Compare, _Alloc>::value_type = std::bitset<300ul>]’
+C.cpp:77:29:   required from here
+/usr/include/c++/4.8/bits/stl_function.h:235:20: error: no match for ‘operator<’ (operand types are ‘const std::bitset<300ul>’ and ‘const std::bitset<300ul>’)
+       { return __x < __y; }
+                    ^
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note: candidates are:
+In file included from /usr/include/c++/4.8/regex:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:108,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/regex.h:1334:5: note: template<class _Bi_iter> bool std::operator<(const std::sub_match<_BiIter>&, const typename std::iterator_traits<_Iter>::value_type&)
+     operator<(const sub_match<_Bi_iter>& __lhs,
+     ^
+/usr/include/c++/4.8/bits/regex.h:1334:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::sub_match<_BiIter>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/regex:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:108,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/regex.h:1254:5: note: template<class _Bi_iter> bool std::operator<(const typename std::iterator_traits<_Iter>::value_type&, const std::sub_match<_BiIter>&)
+     operator<(typename iterator_traits<_Bi_iter>::value_type const& __lhs,
+     ^
+/usr/include/c++/4.8/bits/regex.h:1254:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::sub_match<_BiIter>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/regex:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:108,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/regex.h:1177:5: note: template<class _Bi_iter> bool std::operator<(const std::sub_match<_BiIter>&, const typename std::iterator_traits<_Iter>::value_type*)
+     operator<(const sub_match<_Bi_iter>& __lhs,
+     ^
+/usr/include/c++/4.8/bits/regex.h:1177:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::sub_match<_BiIter>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/regex:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:108,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/regex.h:1103:5: note: template<class _Bi_iter> bool std::operator<(const typename std::iterator_traits<_Iter>::value_type*, const std::sub_match<_BiIter>&)
+     operator<(typename iterator_traits<_Bi_iter>::value_type const* __lhs,
+     ^
+/usr/include/c++/4.8/bits/regex.h:1103:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   mismatched types ‘const typename std::iterator_traits<_Iter>::value_type*’ and ‘std::bitset<300ul>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/regex:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:108,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/regex.h:1029:5: note: template<class _Bi_iter, class _Ch_traits, class _Ch_alloc> bool std::operator<(const std::sub_match<_BiIter>&, std::__sub_match_string<_Bi_iter, _Ch_traits, _Ch_alloc>&)
+     operator<(const sub_match<_Bi_iter>& __lhs,
+     ^
+/usr/include/c++/4.8/bits/regex.h:1029:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::sub_match<_BiIter>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/regex:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:108,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/regex.h:955:5: note: template<class _Bi_iter, class _Ch_traits, class _Ch_alloc> bool std::operator<(std::__sub_match_string<_Bi_iter, _Ch_traits, _Ch_alloc>&, const std::sub_match<_BiIter>&)
+     operator<(const __sub_match_string<_Bi_iter, _Ch_traits, _Ch_alloc>& __lhs,
+     ^
+/usr/include/c++/4.8/bits/regex.h:955:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘std::__sub_match_string<_Bi_iter, _Ch_traits, _Ch_alloc>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/regex:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:108,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/regex.h:879:5: note: template<class _BiIter> bool std::operator<(const std::sub_match<_BiIter>&, const std::sub_match<_BiIter>&)
+     operator<(const sub_match<_BiIter>& __lhs, const sub_match<_BiIter>& __rhs)
+     ^
+/usr/include/c++/4.8/bits/regex.h:879:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::sub_match<_BiIter>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/forward_list:38:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:102,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/forward_list.h:1359:5: note: template<class _Tp, class _Alloc> bool std::operator<(const std::forward_list<_Tp, _Alloc>&, const std::forward_list<_Tp, _Alloc>&)
+     operator<(const forward_list<_Tp, _Alloc>& __lx,
+     ^
+/usr/include/c++/4.8/bits/forward_list.h:1359:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::forward_list<_Tp, _Alloc>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/mutex:43:0,
+                 from /usr/include/c++/4.8/condition_variable:39,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:101,
+                 from C.cpp:1:
+/usr/include/c++/4.8/system_error:250:3: note: bool std::operator<(const std::error_condition&, const std::error_condition&)
+   operator<(const error_condition& __lhs,
+   ^
+/usr/include/c++/4.8/system_error:250:3: note:   no known conversion for argument 1 from ‘const std::bitset<300ul>’ to ‘const std::error_condition&’
+/usr/include/c++/4.8/system_error:177:3: note: bool std::operator<(const std::error_code&, const std::error_code&)
+   operator<(const error_code& __lhs, const error_code& __rhs) noexcept
+   ^
+/usr/include/c++/4.8/system_error:177:3: note:   no known conversion for argument 1 from ‘const std::bitset<300ul>’ to ‘const std::error_code&’
+In file included from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:94:0,
+                 from C.cpp:1:
+/usr/include/c++/4.8/valarray:1181:1: note: template<class _Tp> std::_Expr<std::_BinClos<std::__less, std::_Constant, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__less, _Tp>::result_type> std::operator<(const _Tp&, const std::valarray<_Tp>&)
+ _DEFINE_BINARY_OPERATOR(<, __less)
+ ^
+/usr/include/c++/4.8/valarray:1181:1: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::valarray<_Tp>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:94:0,
+                 from C.cpp:1:
+/usr/include/c++/4.8/valarray:1181:1: note: template<class _Tp> std::_Expr<std::_BinClos<std::__less, std::_ValArray, std::_Constant, _Tp, _Tp>, typename std::__fun<std::__less, _Tp>::result_type> std::operator<(const std::valarray<_Tp>&, const _Tp&)
+ _DEFINE_BINARY_OPERATOR(<, __less)
+ ^
+/usr/include/c++/4.8/valarray:1181:1: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::valarray<_Tp>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:94:0,
+                 from C.cpp:1:
+/usr/include/c++/4.8/valarray:1181:1: note: template<class _Tp> std::_Expr<std::_BinClos<std::__less, std::_ValArray, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__less, _Tp>::result_type> std::operator<(const std::valarray<_Tp>&, const std::valarray<_Tp>&)
+ _DEFINE_BINARY_OPERATOR(<, __less)
+ ^
+/usr/include/c++/4.8/valarray:1181:1: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::valarray<_Tp>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/valarray:587:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:94,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/valarray_after.h:416:5: note: template<class _Dom> std::_Expr<std::_BinClos<std::__less, std::_ValArray, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__less, typename _Dom1::value_type>::result_type> std::operator<(const std::valarray<typename _Dom::value_type>&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(<, __less)
+     ^
+/usr/include/c++/4.8/bits/valarray_after.h:416:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::valarray<typename _Dom::value_type>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/valarray:587:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:94,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/valarray_after.h:416:5: note: template<class _Dom> std::_Expr<std::_BinClos<std::__less, std::_Expr, std::_ValArray, _Dom, typename _Dom::value_type>, typename std::__fun<std::__less, typename _Dom1::value_type>::result_type> std::operator<(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::valarray<typename _Dom::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(<, __less)
+     ^
+/usr/include/c++/4.8/bits/valarray_after.h:416:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/valarray:587:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:94,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/valarray_after.h:416:5: note: template<class _Dom> std::_Expr<std::_BinClos<std::__less, std::_Constant, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__less, typename _Dom1::value_type>::result_type> std::operator<(const typename _Dom::value_type&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(<, __less)
+     ^
+/usr/include/c++/4.8/bits/valarray_after.h:416:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/valarray:587:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:94,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/valarray_after.h:416:5: note: template<class _Dom> std::_Expr<std::_BinClos<std::__less, std::_Expr, std::_Constant, _Dom, typename _Dom::value_type>, typename std::__fun<std::__less, typename _Dom1::value_type>::result_type> std::operator<(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const typename _Dom::value_type&)
+     _DEFINE_EXPR_BINARY_OPERATOR(<, __less)
+     ^
+/usr/include/c++/4.8/bits/valarray_after.h:416:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/valarray:587:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:94,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/valarray_after.h:416:5: note: template<class _Dom1, class _Dom2> std::_Expr<std::_BinClos<std::__less, std::_Expr, std::_Expr, _Dom1, _Dom2>, typename std::__fun<std::__less, typename _Dom1::value_type>::result_type> std::operator<(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::_Expr<_Dom2, typename _Dom2::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(<, __less)
+     ^
+/usr/include/c++/4.8/bits/valarray_after.h:416:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/stack:61:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:88,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_stack.h:261:5: note: template<class _Tp, class _Seq> bool std::operator<(const std::stack<_Tp, _Seq>&, const std::stack<_Tp, _Seq>&)
+     operator<(const stack<_Tp, _Seq>& __x, const stack<_Tp, _Seq>& __y)
+     ^
+/usr/include/c++/4.8/bits/stl_stack.h:261:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::stack<_Tp, _Seq>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/set:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:86,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_multiset.h:756:5: note: template<class _Key, class _Compare, class _Alloc> bool std::operator<(const std::multiset<_Key, _Compare, _Alloc>&, const std::multiset<_Key, _Compare, _Alloc>&)
+     operator<(const multiset<_Key, _Compare, _Alloc>& __x,
+     ^
+/usr/include/c++/4.8/bits/stl_multiset.h:756:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::multiset<_Key, _Compare, _Alloc>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/set:61:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:86,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_set.h:771:5: note: template<class _Key, class _Compare, class _Alloc> bool std::operator<(const std::set<_Key, _Compare, _Alloc>&, const std::set<_Key, _Compare, _Alloc>&)
+     operator<(const set<_Key, _Compare, _Alloc>& __x,
+     ^
+/usr/include/c++/4.8/bits/stl_set.h:771:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::set<_Key, _Compare, _Alloc>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/queue:64:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:85,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_queue.h:286:5: note: template<class _Tp, class _Seq> bool std::operator<(const std::queue<_Tp, _Seq>&, const std::queue<_Tp, _Seq>&)
+     operator<(const queue<_Tp, _Seq>& __x, const queue<_Tp, _Seq>& __y)
+     ^
+/usr/include/c++/4.8/bits/stl_queue.h:286:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::queue<_Tp, _Seq>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/memory:82:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:81,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/shared_ptr.h:373:5: note: template<class _Tp> bool std::operator<(std::nullptr_t, const std::shared_ptr<_Tp1>&)
+     operator<(nullptr_t, const shared_ptr<_Tp>& __a) noexcept
+     ^
+/usr/include/c++/4.8/bits/shared_ptr.h:373:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   cannot convert ‘__x’ (type ‘const std::bitset<300ul>’) to type ‘std::nullptr_t’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/memory:82:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:81,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/shared_ptr.h:368:5: note: template<class _Tp> bool std::operator<(const std::shared_ptr<_Tp1>&, std::nullptr_t)
+     operator<(const shared_ptr<_Tp>& __a, nullptr_t) noexcept
+     ^
+/usr/include/c++/4.8/bits/shared_ptr.h:368:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::shared_ptr<_Tp1>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/memory:82:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:81,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/shared_ptr.h:359:5: note: template<class _Tp1, class _Tp2> bool std::operator<(const std::shared_ptr<_Tp1>&, const std::shared_ptr<_Tp2>&)
+     operator<(const shared_ptr<_Tp1>& __a,
+     ^
+/usr/include/c++/4.8/bits/shared_ptr.h:359:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::shared_ptr<_Tp1>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/bits/shared_ptr.h:52:0,
+                 from /usr/include/c++/4.8/memory:82,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:81,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/shared_ptr_base.h:1075:5: note: template<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator<(std::nullptr_t, const std::__shared_ptr<_Tp, _Lp>&)
+     operator<(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept
+     ^
+/usr/include/c++/4.8/bits/shared_ptr_base.h:1075:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   cannot convert ‘__x’ (type ‘const std::bitset<300ul>’) to type ‘std::nullptr_t’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/bits/shared_ptr.h:52:0,
+                 from /usr/include/c++/4.8/memory:82,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:81,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/shared_ptr_base.h:1070:5: note: template<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator<(const std::__shared_ptr<_Tp, _Lp>&, std::nullptr_t)
+     operator<(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept
+     ^
+/usr/include/c++/4.8/bits/shared_ptr_base.h:1070:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::__shared_ptr<_Tp, _Lp>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/bits/shared_ptr.h:52:0,
+                 from /usr/include/c++/4.8/memory:82,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:81,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/shared_ptr_base.h:1061:5: note: template<class _Tp1, class _Tp2, __gnu_cxx::_Lock_policy _Lp> bool std::operator<(const std::__shared_ptr<_Tp1, _Lp>&, const std::__shared_ptr<_Tp2, _Lp>&)
+     operator<(const __shared_ptr<_Tp1, _Lp>& __a,
+     ^
+/usr/include/c++/4.8/bits/shared_ptr_base.h:1061:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::__shared_ptr<_Tp1, _Lp>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/memory:81:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:81,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/unique_ptr.h:540:5: note: template<class _Tp, class _Dp> bool std::operator<(std::nullptr_t, const std::unique_ptr<_Tp, _Dp>&)
+     operator<(nullptr_t, const unique_ptr<_Tp, _Dp>& __x)
+     ^
+/usr/include/c++/4.8/bits/unique_ptr.h:540:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   cannot convert ‘__x’ (type ‘const std::bitset<300ul>’) to type ‘std::nullptr_t’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/memory:81:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:81,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/unique_ptr.h:534:5: note: template<class _Tp, class _Dp> bool std::operator<(const std::unique_ptr<_Tp, _Dp>&, std::nullptr_t)
+     operator<(const unique_ptr<_Tp, _Dp>& __x, nullptr_t)
+     ^
+/usr/include/c++/4.8/bits/unique_ptr.h:534:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::unique_ptr<_Tp, _Dp>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/memory:81:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:81,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/unique_ptr.h:523:5: note: template<class _Tp, class _Dp, class _Up, class _Ep> bool std::operator<(const std::unique_ptr<_Tp, _Dp>&, const std::unique_ptr<_Up, _Ep>&)
+     operator<(const unique_ptr<_Tp, _Dp>& __x,
+     ^
+/usr/include/c++/4.8/bits/unique_ptr.h:523:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::unique_ptr<_Tp, _Dp>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/map:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:80,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_multimap.h:881:5: note: template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator<(const std::multimap<_Key, _Tp, _Compare, _Alloc>&, const std::multimap<_Key, _Tp, _Compare, _Alloc>&)
+     operator<(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,
+     ^
+/usr/include/c++/4.8/bits/stl_multimap.h:881:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::multimap<_Key, _Tp, _Compare, _Alloc>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/map:61:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:80,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_map.h:979:5: note: template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator<(const std::map<_Key, _Tp, _Compare, _Alloc>&, const std::map<_Key, _Tp, _Compare, _Alloc>&)
+     operator<(const map<_Key, _Tp, _Compare, _Alloc>& __x,
+     ^
+/usr/include/c++/4.8/bits/stl_map.h:979:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::map<_Key, _Tp, _Compare, _Alloc>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/map:60:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:80,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_tree.h:917:5: note: template<class _Key, class _Val, class _KeyOfValue, class _Compare, class _Alloc> bool std::operator<(const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>&, const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>&)
+     operator<(const _Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>& __x,
+     ^
+/usr/include/c++/4.8/bits/stl_tree.h:917:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/list:63:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:78,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_list.h:1631:5: note: template<class _Tp, class _Alloc> bool std::operator<(const std::list<_Tp, _Alloc>&, const std::list<_Tp, _Alloc>&)
+     operator<(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)
+     ^
+/usr/include/c++/4.8/bits/stl_list.h:1631:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::list<_Tp, _Alloc>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/deque:64:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:67,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_deque.h:1975:5: note: template<class _Tp, class _Alloc> bool std::operator<(const std::deque<_Tp, _Alloc>&, const std::deque<_Tp, _Alloc>&)
+     operator<(const deque<_Tp, _Alloc>& __x,
+     ^
+/usr/include/c++/4.8/bits/stl_deque.h:1975:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::deque<_Tp, _Alloc>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/deque:64:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:67,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_deque.h:281:5: note: template<class _Tp, class _RefL, class _PtrL, class _RefR, class _PtrR> bool std::operator<(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _RefR, _PtrR>&)
+     operator<(const _Deque_iterator<_Tp, _RefL, _PtrL>& __x,
+     ^
+/usr/include/c++/4.8/bits/stl_deque.h:281:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::_Deque_iterator<_Tp, _Ref, _Ptr>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/deque:64:0,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:67,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_deque.h:273:5: note: template<class _Tp, class _Ref, class _Ptr> bool std::operator<(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _Ref, _Ptr>&)
+     operator<(const _Deque_iterator<_Tp, _Ref, _Ptr>& __x,
+     ^
+/usr/include/c++/4.8/bits/stl_deque.h:273:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::_Deque_iterator<_Tp, _Ref, _Ptr>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/functional:55:0,
+                 from /usr/include/c++/4.8/bits/stl_algo.h:66,
+                 from /usr/include/c++/4.8/algorithm:62,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:64,
+                 from C.cpp:1:
+/usr/include/c++/4.8/tuple:824:5: note: template<class ... _TElements, class ... _UElements> constexpr bool std::operator<(const std::tuple<_Elements ...>&, const std::tuple<_Elements ...>&)
+     operator<(const tuple<_TElements...>& __t,
+     ^
+/usr/include/c++/4.8/tuple:824:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::tuple<_Elements ...>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/tuple:39:0,
+                 from /usr/include/c++/4.8/functional:55,
+                 from /usr/include/c++/4.8/bits/stl_algo.h:66,
+                 from /usr/include/c++/4.8/algorithm:62,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:64,
+                 from C.cpp:1:
+/usr/include/c++/4.8/array:238:5: note: template<class _Tp, long unsigned int _Nm> bool std::operator<(const std::array<_Tp, _Nm>&, const std::array<_Tp, _Nm>&)
+     operator<(const array<_Tp, _Nm>& __a, const array<_Tp, _Nm>& __b)
+     ^
+/usr/include/c++/4.8/array:238:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::array<_Tp, _Nm>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/vector:64:0,
+                 from /usr/include/c++/4.8/bits/random.h:34,
+                 from /usr/include/c++/4.8/random:50,
+                 from /usr/include/c++/4.8/bits/stl_algo.h:65,
+                 from /usr/include/c++/4.8/algorithm:62,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:64,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_vector.h:1421:5: note: template<class _Tp, class _Alloc> bool std::operator<(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+     operator<(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+     ^
+/usr/include/c++/4.8/bits/stl_vector.h:1421:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::vector<_Tp, _Alloc>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/string:52:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/basic_string.h:2593:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator<(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<(const _CharT* __lhs,
+     ^
+/usr/include/c++/4.8/bits/basic_string.h:2593:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   mismatched types ‘const _CharT*’ and ‘std::bitset<300ul>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/string:52:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/basic_string.h:2581:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator<(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+     operator<(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+/usr/include/c++/4.8/bits/basic_string.h:2581:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::basic_string<_CharT, _Traits, _Alloc>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/string:52:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/basic_string.h:2569:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator<(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+/usr/include/c++/4.8/bits/basic_string.h:2569:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::basic_string<_CharT, _Traits, _Alloc>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/4.8/bits/char_traits.h:39,
+                 from /usr/include/c++/4.8/ios:40,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_iterator.h:1061:5: note: template<class _Iterator> bool std::operator<(const std::move_iterator<_Iterator>&, const std::move_iterator<_Iterator>&)
+     operator<(const move_iterator<_Iterator>& __x,
+     ^
+/usr/include/c++/4.8/bits/stl_iterator.h:1061:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::move_iterator<_Iterator>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/4.8/bits/char_traits.h:39,
+                 from /usr/include/c++/4.8/ios:40,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_iterator.h:1055:5: note: template<class _IteratorL, class _IteratorR> bool std::operator<(const std::move_iterator<_Iterator>&, const std::move_iterator<_IteratorR>&)
+     operator<(const move_iterator<_IteratorL>& __x,
+     ^
+/usr/include/c++/4.8/bits/stl_iterator.h:1055:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::move_iterator<_Iterator>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/4.8/bits/char_traits.h:39,
+                 from /usr/include/c++/4.8/ios:40,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_iterator.h:347:5: note: template<class _IteratorL, class _IteratorR> bool std::operator<(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     operator<(const reverse_iterator<_IteratorL>& __x,
+     ^
+/usr/include/c++/4.8/bits/stl_iterator.h:347:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/4.8/bits/char_traits.h:39,
+                 from /usr/include/c++/4.8/ios:40,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_iterator.h:297:5: note: template<class _Iterator> bool std::operator<(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+     operator<(const reverse_iterator<_Iterator>& __x,
+     ^
+/usr/include/c++/4.8/bits/stl_iterator.h:297:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+       { return __x < __y; }
+                    ^
+In file included from /usr/include/c++/4.8/bits/stl_algobase.h:64:0,
+                 from /usr/include/c++/4.8/bits/char_traits.h:39,
+                 from /usr/include/c++/4.8/ios:40,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_pair.h:220:5: note: template<class _T1, class _T2> constexpr bool std::operator<(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+     operator<(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+     ^
+/usr/include/c++/4.8/bits/stl_pair.h:220:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/4.8/string:48:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/istream:38,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/include/c++/4.8/ccomplex:38,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:52,
+                 from C.cpp:1:
+/usr/include/c++/4.8/bits/stl_function.h:235:20: note:   ‘const std::bitset<300ul>’ is not derived from ‘const std::pair<_T1, _T2>’
+       { return __x < __y; }
+                    ^
+C.cpp: In function ‘int main()’:
+C.cpp:50:17: warning: ignoring return value of ‘int scanf(const char*, ...)’, declared with attribute warn_unused_result [-Wunused-result]
+     int N; si(N); 
+                 ^
+C.cpp:52:19: warning: ignoring return value of ‘int scanf(const char*, ...)’, declared with attribute warn_unused_result [-Wunused-result]
+         si(A[i].F); si(A[i].S);
+                   ^
+C.cpp:52:31: warning: ignoring return value of ‘int scanf(const char*, ...)’, declared with attribute warn_unused_result [-Wunused-result]
+         si(A[i].F); si(A[i].S);
+                               ^

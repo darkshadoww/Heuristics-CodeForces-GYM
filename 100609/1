@@ -1,0 +1,7 @@
+D.cpp: In function ‘int main()’:
+D.cpp:72:24: error: invalid types ‘double[int]’ for array subscript
+             ans[ar[i].S].pb(cur);
+                        ^
+D.cpp:79:27: error: invalid types ‘double[int]’ for array subscript
+         for(auto &j: ans[i])
+                           ^

@@ -1,0 +1,33 @@
+VLL f(LL x)
+{
+    VLL ret;
+    if(x==0)return ret;
+    if(x==1)
+    {
+        ret.PB(1ll); return ret;
+    }
+    if(x%2==0)
+    {
+        ret = f(x/2);
+        for(auto &c : ret) c*=2;
+        return ret;
+    }
+    LL y = 1;
+    while(y<=x)
+        y*=3;
+    y/=3;
+    ret = f(x-y);
+    ret.PB(y);
+    return ret;
+}
+int main()
+{
+    int t; si(t); while(t--)
+    {
+        LL x; cin>>x;
+        VLL tp = f(x);
+        cout<<tp.size()<<endl;
+        for(auto c : tp) cout<<c<<" "; cout<<endl;
+    }
+    return 0;	
+}

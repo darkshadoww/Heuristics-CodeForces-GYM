@@ -1,0 +1,10 @@
+A.cpp: In function ‘int main()’:
+A.cpp:115:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if(it == v.size() || tmp < v[it]) it--;
+                         ^
+A.cpp:90:34: warning: ignoring return value of ‘int scanf(const char*, ...)’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d %d %d", &M, &N, &K);
+                                  ^
+A.cpp:91:42: warning: ignoring return value of ‘int scanf(const char*, ...)’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%2d%*c%2d%*c%4d", &D, &MM, &Y);
+                                          ^

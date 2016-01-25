@@ -1,0 +1,66 @@
+D.cpp: In function ‘void __f(const char*, Arg1&&)’:
+D.cpp:27:5: error: ‘cerr’ was not declared in this scope
+     cerr << name << " : " << arg1 << std::endl;
+     ^
+D.cpp:27:38: error: ‘endl’ is not a member of ‘std’
+     cerr << name << " : " << arg1 << std::endl;
+                                      ^
+D.cpp: In function ‘void __f(const char*, Arg1&&, Args&& ...)’:
+D.cpp:31:46: error: there are no arguments to ‘strchr’ that depend on a template parameter, so a declaration of ‘strchr’ must be available [-fpermissive]
+     const char* comma = strchr(names + 1, ',');cerr.write(names, comma - names) << " : " << arg1<<" | ";__f(comma+1, args...);
+                                              ^
+D.cpp:31:46: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+D.cpp:31:48: error: ‘cerr’ was not declared in this scope
+     const char* comma = strchr(names + 1, ',');cerr.write(names, comma - names) << " : " << arg1<<" | ";__f(comma+1, args...);
+                                                ^
+D.cpp: At global scope:
+D.cpp:39:1: error: ‘string’ does not name a type
+ string flip(string S)
+ ^
+D.cpp:46:1: error: ‘string’ does not name a type
+ string A[100];
+ ^
+D.cpp:48:19: error: ‘string’ has not been declared
+ bool valid(int m, string &S)
+                   ^
+D.cpp: In function ‘bool valid(int, int&)’:
+D.cpp:51:15: error: request for member ‘length’ in ‘second’, which is of non-class type ‘int’
+     int l = S.length();
+               ^
+D.cpp:54:15: error: invalid types ‘int[int]’ for array subscript
+         if(S[i]==S[j])return false;
+               ^
+D.cpp:54:21: error: invalid types ‘int[int]’ for array subscript
+         if(S[i]==S[j])return false;
+                     ^
+D.cpp: At global scope:
+D.cpp:60:19: error: ‘string’ was not declared in this scope
+ bool check_suffix(string &s, int N)
+                   ^
+D.cpp:60:27: error: ‘s’ was not declared in this scope
+ bool check_suffix(string &s, int N)
+                           ^
+D.cpp:60:30: error: expected primary-expression before ‘int’
+ bool check_suffix(string &s, int N)
+                              ^
+D.cpp:60:35: error: expression list treated as compound expression in initializer [-fpermissive]
+ bool check_suffix(string &s, int N)
+                                   ^
+D.cpp:61:1: error: expected ‘,’ or ‘;’ before ‘{’ token
+ {
+ ^
+D.cpp:70:15: error: ‘string’ was not declared in this scope
+ bool is_valid(string s, int N, int m)
+               ^
+D.cpp:70:25: error: expected primary-expression before ‘int’
+ bool is_valid(string s, int N, int m)
+                         ^
+D.cpp:70:32: error: expected primary-expression before ‘int’
+ bool is_valid(string s, int N, int m)
+                                ^
+D.cpp:70:37: error: expression list treated as compound expression in initializer [-fpermissive]
+ bool is_valid(string s, int N, int m)
+                                     ^
+D.cpp:71:1: error: expected ‘,’ or ‘;’ before ‘{’ token
+ {
+ ^

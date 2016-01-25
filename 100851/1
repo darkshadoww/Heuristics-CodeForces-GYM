@@ -1,0 +1,45 @@
+D.cpp: In function ‘node* build(VI, VPII)’:
+D.cpp:88:23: error: no matching function for call to ‘std::vector<int>::push_back(__gnu_cxx::__alloc_traits<std::allocator<std::pair<int, int> > >::value_type&)’
+             rv.pb(d[i]);
+                       ^
+D.cpp:88:23: note: candidates are:
+In file included from /usr/include/c++/4.8/vector:64:0,
+                 from /usr/include/c++/4.8/bits/random.h:34,
+                 from /usr/include/c++/4.8/random:50,
+                 from /usr/include/c++/4.8/bits/stl_algo.h:65,
+                 from /usr/include/c++/4.8/algorithm:62,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:64,
+                 from D.cpp:1:
+/usr/include/c++/4.8/bits/stl_vector.h:901:7: note: void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::value_type = int]
+       push_back(const value_type& __x)
+       ^
+/usr/include/c++/4.8/bits/stl_vector.h:901:7: note:   no known conversion for argument 1 from ‘__gnu_cxx::__alloc_traits<std::allocator<std::pair<int, int> > >::value_type {aka std::pair<int, int>}’ to ‘const value_type& {aka const int&}’
+/usr/include/c++/4.8/bits/stl_vector.h:919:7: note: void std::vector<_Tp, _Alloc>::push_back(std::vector<_Tp, _Alloc>::value_type&&) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::value_type = int]
+       push_back(value_type&& __x)
+       ^
+/usr/include/c++/4.8/bits/stl_vector.h:919:7: note:   no known conversion for argument 1 from ‘__gnu_cxx::__alloc_traits<std::allocator<std::pair<int, int> > >::value_type {aka std::pair<int, int>}’ to ‘std::vector<int>::value_type&& {aka int&&}’
+D.cpp:90:23: error: no matching function for call to ‘std::vector<int>::push_back(__gnu_cxx::__alloc_traits<std::allocator<std::pair<int, int> > >::value_type&)’
+             lv.pb(d[i]);
+                       ^
+D.cpp:90:23: note: candidates are:
+In file included from /usr/include/c++/4.8/vector:64:0,
+                 from /usr/include/c++/4.8/bits/random.h:34,
+                 from /usr/include/c++/4.8/random:50,
+                 from /usr/include/c++/4.8/bits/stl_algo.h:65,
+                 from /usr/include/c++/4.8/algorithm:62,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:64,
+                 from D.cpp:1:
+/usr/include/c++/4.8/bits/stl_vector.h:901:7: note: void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::value_type = int]
+       push_back(const value_type& __x)
+       ^
+/usr/include/c++/4.8/bits/stl_vector.h:901:7: note:   no known conversion for argument 1 from ‘__gnu_cxx::__alloc_traits<std::allocator<std::pair<int, int> > >::value_type {aka std::pair<int, int>}’ to ‘const value_type& {aka const int&}’
+/usr/include/c++/4.8/bits/stl_vector.h:919:7: note: void std::vector<_Tp, _Alloc>::push_back(std::vector<_Tp, _Alloc>::value_type&&) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::value_type = int]
+       push_back(value_type&& __x)
+       ^
+/usr/include/c++/4.8/bits/stl_vector.h:919:7: note:   no known conversion for argument 1 from ‘__gnu_cxx::__alloc_traits<std::allocator<std::pair<int, int> > >::value_type {aka std::pair<int, int>}’ to ‘std::vector<int>::value_type&& {aka int&&}’
+D.cpp:133:11: error: ‘struct node’ has no member named ‘left’
+     root->left = build(lv, ld);
+           ^
+D.cpp:134:11: error: ‘struct node’ has no member named ‘right’
+     root->right = build(rv, rd);
+           ^

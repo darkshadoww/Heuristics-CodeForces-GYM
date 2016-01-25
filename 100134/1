@@ -1,0 +1,4 @@
+myE.cpp: In function ‘int main()’:
+myE.cpp:77:43: error: ‘__gnu_cxx::__alloc_traits<std::allocator<std::pair<long long int, long long int> > >::value_type’ has no member named ‘size’
+             if(cur>=req or j>=(LL)m[i][j].size())break;
+                                           ^
