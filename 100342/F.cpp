@@ -46,7 +46,7 @@ int,
     tree_order_statistics_node_update>
     ordered_set;
 
-ordered_set Occured;
+ordered_set Occurred;
 
 
 map<int,int> Last;
@@ -84,9 +84,9 @@ int main()
         si(A[i]);
         if(Last.count(A[i])==0)
         {
-            Occured.insert(A[i]);
+            Occurred.insert(A[i]);
             os++;
-            int rnk = Occured.order_of_key(A[i]);
+            int rnk = Occurred.order_of_key(A[i]);
             printf("%d ",A[i] + os - rnk - 1);
             update(i+1,1);
         }
